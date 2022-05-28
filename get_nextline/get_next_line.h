@@ -6,16 +6,17 @@
 /*   By: akocoglu <akocoglu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 13:20:48 by akocoglu          #+#    #+#             */
-/*   Updated: 2022/04/24 14:10:09 by akocoglu         ###   ########.fr       */
+/*   Updated: 2022/05/12 19:52:48 by akocoglu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-#ifndef BUFFER_SIZE
-#define BUFFER_SIZE 42
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+
 # include <unistd.h>
 # include <stdlib.h>
 
